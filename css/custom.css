@@ -1,0 +1,11 @@
+table.courses {
+    #width: 50%;
+}
+
+td.courses {
+    padding: 0px 20px 0px 0px;
+}
+
+body {
+    padding-left: 20px;
+}
