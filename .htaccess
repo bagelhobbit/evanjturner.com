@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^evanjturner\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.evanjturner\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/evanjturner\.com\/" [R=301,L]
+
